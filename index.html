@@ -1,795 +1,822 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binxiang Zhao</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Binxiang Zhao</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/portrait1.jpg"
+              alt="Binxiang Zhao"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Binxiang Zhao">Binxiang Zhao</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/portrait1.jpg" alt="Binxiang Zhao" width="80">
-        </figure>
+            <p class="title">Web developer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Binxiang Zhao">Binxiang Zhao</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Web developer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:binxiang.zhao@gmail.com" class="contact-link"
+                  >binxiang.zhao [at] gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (647) 696-1482</a
+                >
+              </div>
+            </li>
+          </ul>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+          <div class="separator"></div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=61552565601019"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-              <a href="mailto:binxiang.zhao@gmail.com" class="contact-link">binxiang.zhao [at] gmail.com</a>
-            </div>
+            <li class="social-item">
+              <a href="https://twitter.com/BinxiangZhao" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/binxiangzhao/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-          <li class="contact-item">
+            <li class="social-item">
+              <a href="https://github.com/zhao-binxiang" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/binxiangzhao/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (647) 696-1482</a>
-            </div>
-
-          </li>
-
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/profile.php?id=61552565601019" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/BinxiangZhao" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/binxiangzhao/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/zhao-binxiang" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/binxiangzhao/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <!-- <li class="navbar-item">
+            <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li> -->
+          </ul>
+        </nav>
 
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              I'm a self-taught web developer with a passion for creating
+              innovative Software as a Service (SaaS) applications. My journey
+              into the world of web development began as a personal quest to
+              harness the power of generative AI and Stable Diffusion. I was
+              captivated by the potential these technologies held in
+              transforming the digital landscape, and I decided to embark on a
+              self-directed learning path.
+            </p>
 
-        <section class="about-text">
-          <p>
-            I'm a self-taught web developer with a passion for creating innovative Software as a Service (SaaS) applications. My journey into the world of web development began as a personal quest to harness the power of generative AI and Stable Diffusion. I was captivated by the potential these technologies held in transforming the digital landscape, and I decided to embark on a self-directed learning path.
-          </p>
+            <p>
+              With over five years of dedicated experience in the e-commerce
+              industry, I have consistently achieved six-figure revenues through
+              strategic planning and market insight. My journey reflects a
+              commitment to continuous learning, innovation, and a profound
+              passion for the dynamic opportunities in e-commerce. I also hold
+              the associateship of Society of Actuaries with a bachlor degree in
+              Actuarial Science from University of Waterloo.
+            </p>
+          </section>
 
-          <p>
-            With over five years of dedicated experience in the e-commerce industry, I have consistently achieved six-figure revenues through strategic planning and market insight. My journey reflects a commitment to continuous learning, innovation, and a profound passion for the dynamic opportunities in e-commerce. I also hold the associateship of  Society of Actuaries with a bachlor degree in Actuarial Science from University of Waterloo.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What i'm the best at</h3>
 
-          <h3 class="h3 service-title">What i'm the best at</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Application</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    Fast development of sites with python, Nodejs, JavaScript
+                    and AWS Suites.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Application</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Digital Marketing</h4>
 
-                <p class="service-item-text">
-                  Fast development of sites with python, Nodejs, JavaScript and AWS Suites.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Experience in high-budget digital advertising in e-Commerce
+                    and design marketing funnels.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Digital Marketing</h4>
-
-                <p class="service-item-text">
-                  Experience in high-budget digital advertising in e-Commerce and design marketing funnels.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+        </article>
 
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-
-          </section>
-
-        </div>
-
-
-
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-        
-        <section class="timeline">
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Growth @ Vimmerse (YC W22)
+                </h4>
 
-          <ol class="timeline-list">
+                <span>Jan 2024 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Execute and analyze paid digital advertising to increase user
+                  base.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Growth @ Vimmerse (YC W22) /h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Founder @ Diffusion-X</h4>
 
-              <span>Jan 2024 — Present</span>
+                <span>May 2023 — Present</span>
 
-              <p class="timeline-text">
-                Execute and analyze paid digital advertising to increase user base. 
-              </p>
+                <p class="timeline-text">
+                  Utilize generative AI to create high-quality product image.
+                </p>
+              </li>
 
-            </li>
-            
-            <li class="timeline-item">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sales Director @ Simply Wealth Group
+                </h4>
 
-              <h4 class="h4 timeline-item-title">Founder @ Diffusion-X</h4>
+                <span>Sept 2021 — Present</span>
 
-              <span>May 2023 — Present</span>
+                <p class="timeline-text">
+                  #1 sales performance in year 2022, exceeding targets and
+                  generating significant revenue growth.
+                </p>
+              </li>
 
-              <p class="timeline-text">
-                Utilize generative AI to create high-quality product image. 
-              </p>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Assistant Actuary @ Fortitude Reinsurance
+                </h4>
 
-            </li>
+                <span>Jan 2020 — Sept 2021</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Analyzed and reviewed the Best Estimate, Cash Flow, and Loss
+                  Recognition Testing for the quarterly reserve movements for
+                  all lines of businesses. Built and streamlined the complex
+                  valuation process in GGY AXIS, Tableau and Alteryx to ensure
+                  results and detailed analysis were communicated in a timely
+                  manner.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Sales Director @ Simply Wealth Group</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Shopify Owner</h4>
 
-              <span>Sept 2021 — Present</span>
+                <span>2018 — 2022</span>
 
-              <p class="timeline-text">
-                #1 sales performance in year 2022, exceeding targets and generating significant revenue growth.
-              </p>
+                <p class="timeline-text">
+                  Managed Facebook/TikTok/Snapchat advertising and a team of 5,
+                  reaching 6 figures in revenue.
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Actuarial Valuation Analyst, RGA International
+                </h4>
 
-            <li class="timeline-item">
+                <span>July 2015 — Dec 2019</span>
 
-              <h4 class="h4 timeline-item-title">Assistant Actuary @ Fortitude Reinsurance</h4>
+                <p class="timeline-text">
+                  Responsible for monthly China and Australia Lump Sum (LS)
+                  product valuation and movement analysis under USGAAP within a
+                  tight schedule
+                </p>
+              </li>
 
-              <span>Jan 2020 — Sept 2021</span>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Actuarial Analyst @ Royal Bank of Canada, Sun Life Financial,
+                  Manulife Financial
+                </h4>
 
-              <p class="timeline-text">
-                Analyzed and reviewed the Best Estimate, Cash Flow, and Loss Recognition Testing for the quarterly reserve movements for all lines of businesses. Built and streamlined the complex valuation process in GGY AXIS, Tableau and Alteryx to ensure
-results and detailed analysis were communicated in a timely manner.
-              </p>
+                <span>2012-2015</span>
 
-            </li>
+                <p class="timeline-text">
+                  Management experience gained through delegating projects to
+                  team members and ensuring superior quality of work
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            <li class="timeline-item">
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <h4 class="h4 timeline-item-title">Shopify Owner</h4>
-
-              <span>2018 —  2022</span>
-
-              <p class="timeline-text">
-                Managed Facebook/TikTok/Snapchat advertising and a team of 5, reaching 6 figures in revenue.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Actuarial Valuation Analyst, RGA International</h4>
-
-              <span>July 2015 — Dec 2019</span>
-
-              <p class="timeline-text">
-                Responsible for monthly China and Australia Lump Sum (LS) product valuation and movement analysis
-under USGAAP within a tight schedule
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Actuarial Analyst @ Royal Bank of Canada, Sun Life Financial, Manulife Financial</h4>
-
-              <span>2012-2015</span>
-
-              <p class="timeline-text">
-                Management experience gained through delegating projects to team members and ensuring superior
-quality of work
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of Waterloo</h4>
 
-          <ol class="timeline-list">
+                <span>2010 — 2013</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">Actuarial Science with Finance</p>
+              </li>
+            </ol>
+          </section>
+        </article>
 
-              <h4 class="h4 timeline-item-title">University of Waterloo</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Actuarial Science with Finance
-              </p>
-
-            </li>
-
-            
-          </ol>
-
-        </section>
-
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">My Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">My Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Shopify</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Shopify</button>
+              <li class="filter-item">
+                <button data-filter-btn>Shopify</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
               </li>
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://diffusion-x.com/"  target="_blank">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button data-select-item>Shopify</button>
+                </li>
 
-                  <img src="./assets/images/Logo-Final.png" alt="finance" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
 
-                <h3 class="project-title">Diffusion-X: AI Product Image Generator</h3>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
 
-                <p class="project-category">Application</p>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://diffusion-x.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="./assets/images/Logo-Final.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://chrome.google.com/webstore/detail/storefinder/ncpaomliljjdpkompppikagopnmolbho?hl=en&authuser=3" target="_blank">
+                  <h3 class="project-title">
+                    Diffusion-X: AI Product Image Generator
+                  </h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Application</p>
+                </a>
+              </li>
 
-                  <img src="./assets/images/storefinder.jpg" alt="orizon" loading="lazy">
-                </figure>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://chrome.google.com/webstore/detail/storefinder/ncpaomliljjdpkompppikagopnmolbho?hl=en&authuser=3"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">Storefinder: Competitor finder through image search </h3>
+                    <img
+                      src="./assets/images/storefinder.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Web development</p>
+                  <h3 class="project-title">
+                    Storefinder: Competitor finder through image search
+                  </h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://web.archive.org/web/20180826235328/https://www.malibucoastal.co/" target="_blank">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://web.archive.org/web/20180826235328/https://www.malibucoastal.co/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="./assets/images/project-6.png" alt="fundo" loading="lazy">
-                </figure>
+                  <h3 class="project-title">
+                    A 6-figure-revenue accessory store (WayBack Machine)
+                  </h3>
 
-                <h3 class="project-title">A 6-figure-revenue accessory store (WayBack Machine)</h3>
+                  <p class="project-category">Shopify</p>
+                </a>
+              </li>
 
-                <p class="project-category">Shopify</p>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://web.archive.org/web/20180826084750/https://www.shopwilshire.com/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://web.archive.org/web/20180826084750/https://www.shopwilshire.com/" target="_blank">
+                  <h3 class="project-title">
+                    A 5-figure-revenue iPhone case store (WayBack Machine)
+                  </h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Shopify</p>
+                </a>
+              </li>
 
-                  <img src="./assets/images/project-7.png" alt="brawlhalla" loading="lazy">
-                </figure>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://s3.amazonaws.com/claimstory.co/index.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">A 5-figure-revenue iPhone case store (WayBack Machine)</h3>
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Shopify</p>
+                  <h3 class="project-title">
+                    Automation in Insurance Claims using OCR
+                  </h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Application</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://s3.amazonaws.com/claimstory.co/index.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Automation in Insurance Claims using OCR</h3>
-
-                <p class="project-category">Application</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/east-coast-millennial-finance-bro-ea34a598a411"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
 
-        <section class="blog-posts">
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Finance</p>
 
-          <ul class="blog-posts-list">
+                      <span class="dot"></span>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/east-coast-millennial-finance-bro-ea34a598a411">
+                      <time datetime="2022-02-23">May 22, 2019</time>
+                    </div>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+                    <h3 class="h3 blog-item-title">
+                      East Coast Millennial Finance Bro
+                    </h3>
 
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Finance</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">May 22, 2019</time>
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">East Coast Millennial Finance Bro</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/are-executives-celebrities-funnier-113ca4d4bc7f"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Workplace</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">May 11, 2019</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/are-executives-celebrities-funnier-113ca4d4bc7f">
+                    <h3 class="h3 blog-item-title">
+                      Are executives/celebrities funnier?
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Workplace</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">May 11, 2019</time>
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">Are executives/celebrities funnier?</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/one-year-of-traveling-rewind-introduction-8931ad322dbb"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Travel</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23"> Apr 23, 2019</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/one-year-of-traveling-rewind-introduction-8931ad322dbb">
+                    <h3 class="h3 blog-item-title">
+                      One Year of Traveling Rewind — Introduction
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Travel</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">
-                      Apr 23, 2019</time>
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">One Year of Traveling Rewind — Introduction</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/my-experience-of-working-in-different-asia-offices-b350a875fc58"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Workplace</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Apr 12, 2019</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/my-experience-of-working-in-different-asia-offices-b350a875fc58">
+                    <h3 class="h3 blog-item-title">
+                      My Experience of Working in Different Asia Offices
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Workplace</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Apr 12, 2019</time>
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">My Experience of Working in Different Asia Offices</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/flip-flops-through-inca-trail-to-machu-picchu-29bc08ba5734"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Travel</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Apr 7, 2019</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/flip-flops-through-inca-trail-to-machu-picchu-29bc08ba5734">
+                    <h3 class="h3 blog-item-title">
+                      Flip Flops through Inca Trail to Machu Picchu
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Travel</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Apr 7, 2019</time>
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">Flip Flops through Inca Trail to Machu Picchu</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://binxiangzhao.medium.com/my-top-3-favorite-ocean-drives-e0f4932f1cce"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Travel</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Mar 25, 2019</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://binxiangzhao.medium.com/my-top-3-favorite-ocean-drives-e0f4932f1cce">
+                    <h3 class="h3 blog-item-title">
+                      My Top 3 Favorite Ocean Drives
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Travel</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Mar 25, 2019</time>
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
                   </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                  <h3 class="h3 blog-item-title">My Top 3 Favorite Ocean Drives</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #CONTACT
 
 
@@ -823,27 +850,24 @@ quality of work
         </section>
 
       </article>      -->
+      </div>
+    </main>
 
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
